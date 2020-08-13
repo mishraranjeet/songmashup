@@ -1,0 +1,88 @@
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#skin {
+	margin:10px auto;
+	padding:2px;
+	background:lightgray;
+	border:4px solid black;
+	border-radius:10px;
+}
+.btn-group button {
+  background-color: #afa8af;
+  border: 1px solid green;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group button:hover {
+  background-color: #32518e;
+}
+
+.BAR {
+	position:relative;
+	float:left;
+	width:310px;
+	height:26px;
+	padding:4px;
+	border: 2px solid black;
+	background:gray;
+	margin-bottom: 5px;
+}
+.PBAR {
+	position:absolute;
+	width:0;
+	height:16px;
+	background: orangered;
+}
+.BAR2 {
+	position:relative;
+	width:310px;
+	height:26px;
+	padding:4px;
+	border: 2px solid black;
+	background:gray;
+	margin-bottom: 5px;
+}
+.PBAR2 {
+	position:absolute;
+	width:0;
+	height:16px;
+	background:orangered;
+}
+.volume-slider-con{
+  height:10px;
+  width:50%;
+	position:relative;
+  background-color:#ddd;
+}
+.volume-slider{
+   height:100%;
+   width:100%;
+   position:relative;
+   background-color:red;
+}
+
+.btn-group video{
+    display: inline-block;
+}

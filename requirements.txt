@@ -1,0 +1,6 @@
+Flask==1.1.2
+psycopg2-binary
+python-dotenv
+requests
+werkzeug==0.16.0
+google-api-python-client
